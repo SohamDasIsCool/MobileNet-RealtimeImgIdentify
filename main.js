@@ -19,7 +19,7 @@ if(error){
 else{
   console.log(results);
   document.getElementById("result_object_name").innerHTML="The object MobileNet sees is "+results[0].label;
-  document.getElementById("result_object_accuracy").innerHTML="MobileNet is accuracte upto "+results[0].confidence.toFixed(3)
+  document.getElementById("result_object_accuracy").innerHTML="MobileNet is accuracte upto "+results[0].confidence.toFixed(3);
 }
 }
 
